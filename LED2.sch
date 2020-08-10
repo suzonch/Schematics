@@ -423,7 +423,7 @@ F 3 "" H 5100 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 3350 5100 3050
+	5100 3350 5100 3250
 $Comp
 L LTC1669CMS8:LTC1669CMS8 U6
 U 1 1 5F1BB800
@@ -507,19 +507,6 @@ F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder" H 
 F 3 "~" H 5950 1200 50  0001 C CNN
 	1    5950 1200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 5F1D8B67
-P 6550 4850
-AR Path="/5F1574DE/5F1D8B67" Ref="#PWR027"  Part="1" 
-AR Path="/5F22BCD9/5F22EBBD/5F1D8B67" Ref="#PWR?"  Part="1" 
-F 0 "#PWR027" H 6550 4600 50  0001 C CNN
-F 1 "GND" H 6555 4677 50  0000 C CNN
-F 2 "" H 6550 4850 50  0001 C CNN
-F 3 "" H 6550 4850 50  0001 C CNN
-	1    6550 4850
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6550 4850 6550 4700
@@ -607,37 +594,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDC6330L-D.PDF" H 5800 1850 50  0001 
 $EndComp
 Wire Wire Line
 	6550 1650 6550 2900
-$Comp
-L power:GND #PWR028
-U 1 1 5F1EFE78
-P 7150 1650
-AR Path="/5F1574DE/5F1EFE78" Ref="#PWR028"  Part="1" 
-AR Path="/5F22BCD9/5F22EBBD/5F1EFE78" Ref="#PWR?"  Part="1" 
-F 0 "#PWR028" H 7150 1400 50  0001 C CNN
-F 1 "GND" V 7155 1522 50  0000 R CNN
-F 2 "" H 7150 1650 50  0001 C CNN
-F 3 "" H 7150 1650 50  0001 C CNN
-	1    7150 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP C18
-U 1 1 5F1EFE7F
-P 6800 1650
-AR Path="/5F1574DE/5F1EFE7F" Ref="C18"  Part="1" 
-AR Path="/5F22BCD9/5F22EBBD/5F1EFE7F" Ref="C?"  Part="1" 
-F 0 "C18" V 7055 1650 50  0000 C CNN
-F 1 "100uF" V 6964 1650 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder" H 6838 1500 50  0001 C CNN
-F 3 "~" H 6800 1650 50  0001 C CNN
-	1    6800 1650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6650 1650 6550 1650
-Connection ~ 6550 1650
-Wire Wire Line
-	6950 1650 7150 1650
 $Comp
 L Device:R R21
 U 1 1 5F313664
@@ -807,4 +763,87 @@ Wire Wire Line
 Connection ~ 4150 4500
 Wire Wire Line
 	4150 4500 4450 4500
+$Comp
+L power:GND #PWR0101
+U 1 1 5F323768
+P 6550 4850
+F 0 "#PWR0101" H 6550 4600 50  0001 C CNN
+F 1 "GND" H 6555 4677 50  0000 C CNN
+F 2 "" H 6550 4850 50  0001 C CNN
+F 3 "" H 6550 4850 50  0001 C CNN
+	1    6550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C_PWR?
+U 1 1 5F33FBAA
+P 3550 2900
+AR Path="/5F0387D4/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0E5FE6/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0ECDE4/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0ED602/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EDA8E/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EDDEA/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EE1DE/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EE56E/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EE896/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F1BDA41/5F33FBAA" Ref="C_PWR?"  Part="1" 
+AR Path="/5F1574DE/5F33FBAA" Ref="C_PWR3"  Part="1" 
+AR Path="/5F22BCD9/5F22EBBD/5F33FBAA" Ref="C_PWR?"  Part="1" 
+F 0 "C_PWR3" H 3550 3000 39  0000 L CNN
+F 1 "100nF" H 3550 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3588 2750 50  0001 C CNN
+F 3 "~" H 3550 2900 50  0001 C CNN
+	1    3550 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 3050
+Wire Wire Line
+	3550 2700 3550 2750
+$Comp
+L power:GND #PWR037
+U 1 1 5F345D99
+P 3550 2700
+AR Path="/5F1574DE/5F345D99" Ref="#PWR037"  Part="1" 
+AR Path="/5F22BCD9/5F22EBBD/5F345D99" Ref="#PWR?"  Part="1" 
+F 0 "#PWR037" H 3550 2450 50  0001 C CNN
+F 1 "GND" H 3555 2527 50  0000 C CNN
+F 2 "" H 3550 2700 50  0001 C CNN
+F 3 "" H 3550 2700 50  0001 C CNN
+	1    3550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C_PWR?
+U 1 1 5F346817
+P 5250 3250
+AR Path="/5F0387D4/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0E5FE6/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0ECDE4/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0ED602/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EDA8E/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EDDEA/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EE1DE/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EE56E/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F0EE896/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F1BDA41/5F346817" Ref="C_PWR?"  Part="1" 
+AR Path="/5F1574DE/5F346817" Ref="C_PWR4"  Part="1" 
+AR Path="/5F22BCD9/5F22EBBD/5F346817" Ref="C_PWR?"  Part="1" 
+F 0 "C_PWR4" H 5250 3350 39  0000 L CNN
+F 1 "100nF" H 5250 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5288 3100 50  0001 C CNN
+F 3 "~" H 5250 3250 50  0001 C CNN
+	1    5250 3250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5100 3250
+Wire Wire Line
+	5100 3250 5100 3050
+Wire Wire Line
+	5400 3250 5500 3250
+Wire Wire Line
+	5500 3250 5500 2650
+Wire Wire Line
+	5500 2650 5650 2650
+Connection ~ 5650 2650
 $EndSCHEMATC

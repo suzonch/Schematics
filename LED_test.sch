@@ -51,7 +51,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 2600 4300 2600
 Wire Wire Line
-	4650 2700 4300 2700
+	4650 2700 4400 2700
 $Comp
 L Device:R R2
 U 1 1 5F18520D
@@ -300,17 +300,6 @@ F 3 "~" H 1000 1200 50  0001 C CNN
 	1    1000 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x08_Male J2
-U 1 1 5F1D2EFD
-P 4100 2300
-F 0 "J2" H 4208 2781 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 4208 2690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical" H 4100 2300 50  0001 C CNN
-F 3 "~" H 4100 2300 50  0001 C CNN
-	1    4100 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	700  4150 2050 4150
 Wire Wire Line
@@ -338,4 +327,22 @@ F 3 "~" H 2500 2200 50  0001 C CNN
 	1    2500 2200
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Conn_01x09_Male J2
+U 1 1 5F49C9B7
+P 4100 2400
+F 0 "J2" H 4208 2981 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 4208 2890 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x09_P2.00mm_Vertical" H 4100 2400 50  0001 C CNN
+F 3 "~" H 4100 2400 50  0001 C CNN
+	1    4100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2800 4400 2800
+Wire Wire Line
+	4400 2800 4400 2700
+Connection ~ 4400 2700
+Wire Wire Line
+	4400 2700 4300 2700
 $EndSCHEMATC
