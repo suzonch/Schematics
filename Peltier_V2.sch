@@ -884,8 +884,6 @@ F 3 "" H 7700 4250 50  0001 C CNN
 	1    7700 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7700 4250 7700 4300
 $Comp
 L Analog_ADC:ADC101C021CIMM U?
 U 1 1 5F2DF3E0
@@ -1270,31 +1268,6 @@ Wire Wire Line
 Connection ~ 7700 4600
 Wire Wire Line
 	7700 4600 7700 4700
-Wire Wire Line
-	7450 4200 7600 4200
-Wire Wire Line
-	7600 4200 7600 4300
-Wire Wire Line
-	7600 4300 7700 4300
-Connection ~ 7700 4300
-Wire Wire Line
-	7700 4300 7700 4600
-Wire Wire Line
-	7150 4200 7150 4600
-Connection ~ 7150 4600
-$Comp
-L Device:CP C18
-U 1 1 5F40B4CF
-P 7300 4200
-AR Path="/5F1EB180/5F40B4CF" Ref="C18"  Part="1" 
-AR Path="/5F22BCD9/5F22EBB8/5F40B4CF" Ref="C?"  Part="1" 
-F 0 "C18" V 7555 4200 50  0000 C CNN
-F 1 "4.7uF" V 7464 4200 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder" H 7338 4050 50  0001 C CNN
-F 3 "~" H 7300 4200 50  0001 C CNN
-	1    7300 4200
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:C C22
 U 1 1 5F419CCE
@@ -1321,19 +1294,6 @@ F 3 "" H 9000 2700 50  0001 C CNN
 	1    9000 2700
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:CP C21
-U 1 1 5F419CDD
-P 9200 2500
-AR Path="/5F1EB180/5F419CDD" Ref="C21"  Part="1" 
-AR Path="/5F22BCD9/5F22EBB8/5F419CDD" Ref="C?"  Part="1" 
-F 0 "C21" V 9455 2500 50  0000 C CNN
-F 1 "4.7uF" V 9364 2500 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder" H 9238 2350 50  0001 C CNN
-F 3 "~" H 9200 2500 50  0001 C CNN
-	1    9200 2500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9350 2500 9550 2500
 Connection ~ 9550 2500
@@ -1353,4 +1313,19 @@ Wire Wire Line
 Wire Wire Line
 	9000 2500 9050 2500
 Connection ~ 9000 2700
+$Comp
+L Device:C C18
+U 1 1 5F359FA4
+P 9200 2500
+AR Path="/5F1EB180/5F359FA4" Ref="C18"  Part="1" 
+AR Path="/5F22BCD9/5F22EBB8/5F359FA4" Ref="C?"  Part="1" 
+F 0 "C18" H 9315 2546 50  0000 L CNN
+F 1 "4.7uF" H 9315 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9238 2350 50  0001 C CNN
+F 3 "~" H 9200 2500 50  0001 C CNN
+	1    9200 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 4250 7700 4600
 $EndSCHEMATC
