@@ -590,34 +590,6 @@ Wire Wire Line
 	5000 1850 5200 1850
 Wire Wire Line
 	5000 1800 5000 1850
-$Comp
-L Device:R R?
-U 1 1 5F1FFA29
-P 5000 1650
-AR Path="/5F115F8B/5F1FFA29" Ref="R?"  Part="1" 
-AR Path="/5F1EB180/5F1FFA29" Ref="R8"  Part="1" 
-AR Path="/5F22BCD9/5F22EBB8/5F1FFA29" Ref="R?"  Part="1" 
-F 0 "R8" H 4850 1800 50  0000 L CNN
-F 1 "R" V 5000 1600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 1650 50  0001 C CNN
-F 3 "~" H 5000 1650 50  0001 C CNN
-	1    5000 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F1FFA23
-P 5000 2050
-AR Path="/5F115F8B/5F1FFA23" Ref="R?"  Part="1" 
-AR Path="/5F1EB180/5F1FFA23" Ref="R9"  Part="1" 
-AR Path="/5F22BCD9/5F22EBB8/5F1FFA23" Ref="R?"  Part="1" 
-F 0 "R9" H 5000 2200 50  0000 L CNN
-F 1 "R" V 5000 2000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 2050 50  0001 C CNN
-F 3 "~" H 5000 2050 50  0001 C CNN
-	1    5000 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 1850 5450 1900
 Connection ~ 5450 1850
@@ -630,75 +602,19 @@ Wire Wire Line
 Wire Wire Line
 	5200 1500 5200 1350
 $Comp
-L Device:R R?
-U 1 1 5F1FFA16
-P 5450 1650
-AR Path="/5F115F8B/5F1FFA16" Ref="R?"  Part="1" 
-AR Path="/5F1EB180/5F1FFA16" Ref="R14"  Part="1" 
-AR Path="/5F22BCD9/5F22EBB8/5F1FFA16" Ref="R?"  Part="1" 
-F 0 "R14" H 5450 1800 50  0000 L CNN
-F 1 "R" V 5450 1600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 1650 50  0001 C CNN
-F 3 "~" H 5450 1650 50  0001 C CNN
-	1    5450 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F1FFA10
-P 5200 1650
-AR Path="/5F115F8B/5F1FFA10" Ref="R?"  Part="1" 
-AR Path="/5F1EB180/5F1FFA10" Ref="R11"  Part="1" 
-AR Path="/5F22BCD9/5F22EBB8/5F1FFA10" Ref="R?"  Part="1" 
-F 0 "R11" H 5200 1800 50  0000 L CNN
-F 1 "R" V 5200 1600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 1650 50  0001 C CNN
-F 3 "~" H 5200 1650 50  0001 C CNN
-	1    5200 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F1FFA0A
-P 5450 2050
-AR Path="/5F115F8B/5F1FFA0A" Ref="R?"  Part="1" 
-AR Path="/5F1EB180/5F1FFA0A" Ref="R15"  Part="1" 
-AR Path="/5F22BCD9/5F22EBB8/5F1FFA0A" Ref="R?"  Part="1" 
-F 0 "R15" H 5450 2200 50  0000 L CNN
-F 1 "R" V 5450 2000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 2050 50  0001 C CNN
-F 3 "~" H 5450 2050 50  0001 C CNN
-	1    5450 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F1FFA04
-P 5200 2050
-AR Path="/5F115F8B/5F1FFA04" Ref="R?"  Part="1" 
-AR Path="/5F1EB180/5F1FFA04" Ref="R12"  Part="1" 
-AR Path="/5F22BCD9/5F22EBB8/5F1FFA04" Ref="R?"  Part="1" 
-F 0 "R12" H 5200 2200 50  0000 L CNN
-F 1 "R" V 5200 2000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 2050 50  0001 C CNN
-F 3 "~" H 5200 2050 50  0001 C CNN
-	1    5200 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5F1FF9FE
-P 5200 1350
+P 5850 2100
 AR Path="/5F0387D4/5F1FF9FE" Ref="#PWR?"  Part="1" 
 AR Path="/5F115F8B/5F1FF9FE" Ref="#PWR?"  Part="1" 
 AR Path="/5F1EB180/5F1FF9FE" Ref="#PWR014"  Part="1" 
 AR Path="/5F22BCD9/5F22EBB8/5F1FF9FE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR014" H 5200 1100 50  0001 C CNN
-F 1 "GND" H 5205 1177 50  0000 C CNN
-F 2 "" H 5200 1350 50  0001 C CNN
-F 3 "" H 5200 1350 50  0001 C CNN
-	1    5200 1350
-	-1   0    0    1   
+F 0 "#PWR014" H 5850 1850 50  0001 C CNN
+F 1 "GND" H 5855 1927 50  0000 C CNN
+F 2 "" H 5850 2100 50  0001 C CNN
+F 3 "" H 5850 2100 50  0001 C CNN
+	1    5850 2100
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4550 2150 4550 2350
@@ -718,8 +634,6 @@ F 3 "~" H 4550 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4200 1850
-Wire Wire Line
-	4200 1250 4200 1450
 Wire Wire Line
 	3850 1850 4200 1850
 Wire Wire Line
@@ -955,15 +869,15 @@ Wire Wire Line
 $Comp
 L power:GND #PWR013
 U 1 1 5F1F77AB
-P 4200 1250
+P 4050 1500
 AR Path="/5F1EB180/5F1F77AB" Ref="#PWR013"  Part="1" 
 AR Path="/5F22BCD9/5F22EBB8/5F1F77AB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR013" H 4200 1000 50  0001 C CNN
-F 1 "GND" H 4205 1077 50  0000 C CNN
-F 2 "" H 4200 1250 50  0001 C CNN
-F 3 "" H 4200 1250 50  0001 C CNN
-	1    4200 1250
-	-1   0    0    1   
+F 0 "#PWR013" H 4050 1250 50  0001 C CNN
+F 1 "GND" H 4055 1327 50  0000 C CNN
+F 2 "" H 4050 1500 50  0001 C CNN
+F 3 "" H 4050 1500 50  0001 C CNN
+	1    4050 1500
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C5
@@ -979,8 +893,7 @@ F 3 "~" H 3800 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3950 1450 4200 1450
-Connection ~ 4200 1450
+	3950 1450 4050 1450
 Wire Wire Line
 	4200 1450 4200 1850
 Wire Wire Line
@@ -1328,4 +1241,98 @@ F 3 "~" H 9200 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7700 4250 7700 4600
+$Comp
+L Device:R R?
+U 1 1 5F1FFA0A
+P 5450 2050
+AR Path="/5F115F8B/5F1FFA0A" Ref="R?"  Part="1" 
+AR Path="/5F1EB180/5F1FFA0A" Ref="R15"  Part="1" 
+AR Path="/5F22BCD9/5F22EBB8/5F1FFA0A" Ref="R?"  Part="1" 
+F 0 "R15" H 5450 2200 50  0000 L CNN
+F 1 "R" V 5450 2000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 2050 50  0001 C CNN
+F 3 "~" H 5450 2050 50  0001 C CNN
+	1    5450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1FFA16
+P 5450 1650
+AR Path="/5F115F8B/5F1FFA16" Ref="R?"  Part="1" 
+AR Path="/5F1EB180/5F1FFA16" Ref="R14"  Part="1" 
+AR Path="/5F22BCD9/5F22EBB8/5F1FFA16" Ref="R?"  Part="1" 
+F 0 "R14" H 5450 1800 50  0000 L CNN
+F 1 "R" V 5450 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 1650 50  0001 C CNN
+F 3 "~" H 5450 1650 50  0001 C CNN
+	1    5450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1FFA04
+P 5200 2050
+AR Path="/5F115F8B/5F1FFA04" Ref="R?"  Part="1" 
+AR Path="/5F1EB180/5F1FFA04" Ref="R12"  Part="1" 
+AR Path="/5F22BCD9/5F22EBB8/5F1FFA04" Ref="R?"  Part="1" 
+F 0 "R12" H 5200 2200 50  0000 L CNN
+F 1 "R" V 5200 2000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 2050 50  0001 C CNN
+F 3 "~" H 5200 2050 50  0001 C CNN
+	1    5200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1FFA10
+P 5200 1650
+AR Path="/5F115F8B/5F1FFA10" Ref="R?"  Part="1" 
+AR Path="/5F1EB180/5F1FFA10" Ref="R11"  Part="1" 
+AR Path="/5F22BCD9/5F22EBB8/5F1FFA10" Ref="R?"  Part="1" 
+F 0 "R11" H 5200 1800 50  0000 L CNN
+F 1 "R" V 5200 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 1650 50  0001 C CNN
+F 3 "~" H 5200 1650 50  0001 C CNN
+	1    5200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1FFA23
+P 5000 2050
+AR Path="/5F115F8B/5F1FFA23" Ref="R?"  Part="1" 
+AR Path="/5F1EB180/5F1FFA23" Ref="R9"  Part="1" 
+AR Path="/5F22BCD9/5F22EBB8/5F1FFA23" Ref="R?"  Part="1" 
+F 0 "R9" H 5000 2200 50  0000 L CNN
+F 1 "R" V 5000 2000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 2050 50  0001 C CNN
+F 3 "~" H 5000 2050 50  0001 C CNN
+	1    5000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F1FFA29
+P 5000 1650
+AR Path="/5F115F8B/5F1FFA29" Ref="R?"  Part="1" 
+AR Path="/5F1EB180/5F1FFA29" Ref="R8"  Part="1" 
+AR Path="/5F22BCD9/5F22EBB8/5F1FFA29" Ref="R?"  Part="1" 
+F 0 "R8" H 4850 1800 50  0000 L CNN
+F 1 "R" V 5000 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 1650 50  0001 C CNN
+F 3 "~" H 5000 1650 50  0001 C CNN
+	1    5000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1350 5850 2100
+Wire Wire Line
+	5450 1350 5850 1350
+Connection ~ 5450 1350
+Wire Wire Line
+	4050 1500 4050 1450
+Connection ~ 4050 1450
+Wire Wire Line
+	4050 1450 4200 1450
 $EndSCHEMATC
