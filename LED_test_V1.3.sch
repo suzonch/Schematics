@@ -6,9 +6,9 @@ encoding utf-8
 Sheet 1 3
 Title "LED_TEST"
 Date ""
-Rev "1.2"
+Rev "1.3"
 Comp "Tartu Observatory"
-Comment1 "HYPERNETS"
+Comment1 "HYPERNETS CONSORTIUM"
 Comment2 ""
 Comment3 ""
 Comment4 ""

@@ -271,7 +271,7 @@ AR Path="/5F1574DE/5F175C30" Ref="R45"  Part="1"
 AR Path="/5F22BCD9/5F22EBBD/5F175C30" Ref="R?"  Part="1" 
 F 0 "R45" H 6620 4746 50  0000 L CNN
 F 1 ".1" V 6550 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6480 4700 50  0001 C CNN
 F 3 "~" H 6550 4700 50  0001 C CNN
 	1    6550 4700
 	1    0    0    -1  
@@ -364,7 +364,7 @@ F 3 "~" H 5950 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5150 2050 5600 2050
+	5150 2050 5500 2050
 Wire Wire Line
 	5600 750  5600 1200
 Connection ~ 5600 1200
@@ -1069,9 +1069,9 @@ AR Path="/5F0EE1DE/5FE062F2" Ref="#PWR?"  Part="1"
 AR Path="/5F0EE56E/5FE062F2" Ref="#PWR?"  Part="1" 
 AR Path="/5F0EE896/5FE062F2" Ref="#PWR?"  Part="1" 
 AR Path="/5F1BDA41/5FE062F2" Ref="#PWR?"  Part="1" 
-AR Path="/5F1574DE/5FE062F2" Ref="#PWR?"  Part="1" 
+AR Path="/5F1574DE/5FE062F2" Ref="#PWR056"  Part="1" 
 AR Path="/5F22BCD9/5F22EBBD/5FE062F2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6750 5150 50  0001 C CNN
+F 0 "#PWR056" H 6750 5150 50  0001 C CNN
 F 1 "GND" H 6755 5227 50  0000 C CNN
 F 2 "" H 6750 5400 50  0001 C CNN
 F 3 "" H 6750 5400 50  0001 C CNN
@@ -1083,4 +1083,35 @@ Wire Wire Line
 Connection ~ 6550 5400
 Wire Wire Line
 	6550 5400 6550 5450
+$Comp
+L Device:R R_Address?
+U 1 1 5FF80A53
+P 5500 2300
+AR Path="/5F0387D4/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F0E5FE6/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F0ECDE4/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F0ED602/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F0EDA8E/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F0EDDEA/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F0EE1DE/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F0EE56E/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F0EE896/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F1BDA41/5FF80A53" Ref="R_Address?"  Part="1" 
+AR Path="/5F1574DE/5FF80A53" Ref="R48"  Part="1" 
+AR Path="/5F22BCD9/5F22EBBD/5FF80A53" Ref="R_Address?"  Part="1" 
+F 0 "R48" H 5350 2250 31  0000 L CNN
+F 1 "100k" V 5500 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 2300 50  0001 C CNN
+F 3 "~" H 5500 2300 50  0001 C CNN
+	1    5500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2150 5500 2050
+Connection ~ 5500 2050
+Wire Wire Line
+	5500 2050 5600 2050
+Wire Wire Line
+	5500 2450 5500 2650
+Connection ~ 5500 2650
 $EndSCHEMATC
